@@ -86,7 +86,7 @@ Your writing should be related to the thesis
 - To provied a theme for your writing
 
 ## Body
-= Hold the reader's attention by writing paragraphs that 
+Hold the reader's attention by writing paragraphs that 
   - Are **clearly related** to the thesis or topic
   - **Maintain focus** on the key issues
   - Present **one major point** in each
