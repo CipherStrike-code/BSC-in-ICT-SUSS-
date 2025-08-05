@@ -1,18 +1,6 @@
 # Before you start writing an assignment, it is important to think of the following. 
 
-## WHO? (Audience)
-- Who will read my writing?
-- Who am I writing for?
-
-## WHY? (Purpose)
-- Why am I writing this?
-
-## WHAT? (Content)
-- What am I going to write?
-
-## HOW? (Style, Flow, Presentation)
-- How am I going to write this?
-- Is it a formal or non-formal writing?
+<img width="961" height="758" alt="image" src="https://github.com/user-attachments/assets/2e3a3718-2ec9-468c-bf32-e8659d8c2e83" />
 
 Always remember to be selfless writer and write for others to know and see, and dont be a selfish writer that only writes for themself. 
 
