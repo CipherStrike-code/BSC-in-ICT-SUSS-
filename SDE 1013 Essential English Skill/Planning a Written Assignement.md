@@ -57,52 +57,14 @@ Your content should
   1. Problem-Solution
   2. General-Specific
 
-Problem-Solution:
-1. **Introduce** a Situation and provide information in it. 
-2. **Identify** a Problem in the situation.
-3. **Look** at possible solutions and propose one of the solution to the problem.
-4. **Evaluate** the solution that you pick and suggest how good is your solution. Assess the strength and weaknesses of the solution.
+**Problem-Solution:**
+<img width="1350" height="757" alt="image" src="https://github.com/user-attachments/assets/bdacf738-c498-479f-8278-e56646f7a194" />
 
-General-Specific
-1. **Identify** a general issue. Introduce the topic and reason for the paper, moving from general background to a specific issue to attract the reader's attention. 
-2. **Narrow** the general issue down ot the specific. Provide details to support the general statements and the main ideas.
-3. **Summarise** the specific and relate it back to the general issue. Move from the specifc points to show why these are important and how these help to understand and address the issues in the wider context described in the introduction. 
+**General-Specific**
+<img width="994" height="816" alt="image" src="https://github.com/user-attachments/assets/d8656f00-64ae-4cd5-9f4e-9862953e32d4" />
 
-##Introduction
-- Attract the reader's attention by
-  - Defining key terms
-  - Presenting significant facts or figures
-  - Referring to or quoting from major work
-  - Provide questions related to the topic
-  - Idenity the focus of the paper
-
-### What is the thesis statement?
-The particular **position** you take:
-- Based on your knowledge of the issue
-- Provides direction for your writing
-
-Your writing should be related to the thesis
-- To support it or show opposing views
-- To provied a theme for your writing
-
-## Body
-Hold the reader's attention by writing paragraphs that 
-  - Are **clearly related** to the thesis or topic
-  - **Maintain focus** on the key issues
-  - Present **one major point** in each
-  - Have **suppprting ideas** related to major points
-  - Are presented in a **logical flow**
-  - Have **smooth transitions** between them <br>
-
- What is a good paragraph?
- - Main idea is presented in the first sentence
- - Explanation and details are presented in the next sentences
-
-## Conclusion
-Convince the reader by
-- Reiterating the thesis of your paper
-- Restating the focus of your writing
-- Summarising all the key points you have made
+**Organisational Structure**
+<img width="1350" height="1027" alt="image" src="https://github.com/user-attachments/assets/a849bb97-da29-412e-8b81-940a03ad39d8" />
 
 
 
