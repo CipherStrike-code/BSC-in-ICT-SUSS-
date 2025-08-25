@@ -63,7 +63,7 @@ In the figure (1.1) below, it shows a **Uniprogramming** solution where there is
 The figure (1.2) below shows a **Multiprogramming** situation, where there are two programs A & B. When A hits and I/O operation, program B can execute, thus improving the overall efficiency of the system.  
 
 <p align="center">
-  <img width="935" height="362" alt="image" src="https://github.com/user-attachments/assets/60fa0c8f-1988-493d-983b-213975fdfa5c" />
+  <img width="935" height="362" alt="image" src="https://github.com/user-attachments/assets/60fa0c8f-1988-493d-983b-213975fdfa5c" /><br>
   Figure 1.2
 </p>
 
