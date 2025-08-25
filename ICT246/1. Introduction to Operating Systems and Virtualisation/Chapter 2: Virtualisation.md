@@ -13,7 +13,7 @@ A virtual machine is a machine installed with virtualisation software that can r
 Each virtual machine will run an OS, and we call the machine inside the virtual machine as guest OS. The machine running the hypervisor is called the host machine. Hypervisor are software such as virtualbox and Vmware Workstation. <br>
 
 Below are some reasons why a company or people would use a hypervisor. 
-- Consolidation (A server can run multiple VM and thus improves its efficiency by sharing its resources (such as processor, RAM, etc).
+- Consolidation (A server can run multiple VM and thus improves its efficiency by sharing its resources (such as processor, RAM, etc)).
 - Rapid development (A new VM can be deployed in a ver short amount of time and is easy to copy as VM consists of files.)
 - Ease of management (VM facilitates deployment, and software can be tested easily. Virtualisation is one of the technologies that support cloud computing, and many of the data centres in the world are now using virtual machines.)
 
