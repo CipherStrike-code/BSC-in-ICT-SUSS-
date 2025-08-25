@@ -48,12 +48,36 @@ A OS will have be able to evolve due to
 - New Services - eg. new management tools
 - Fixes - eg. new patches (such as the Windows patches)
 
+# Evolution of Operating Systems
+We have to know the history of how OS comes about in order to know OS the best. Computers do not have an OS in the earlier days. This result in the programmer needing to interact directly with the hardware, which is tedious and not convenient. This is also known as **Serial processing** as the users accessed the computer in series. Through the years, something called batch system is developed, which is like an early version of the modern OS. The simple batch system has an OS, which means that the user do not need to directly deal with the hardware, making it more convenient to use. 
 
+Despite the fact that the simple batch system improves the usage of the computer, it is not as efficient as the processor is often idle and not being utilised. This is because the Input/Output (I/O) devices of that time are much slower as compared to the processor. Thus, multiprogrammed bathc system is develop which improves the efficiency of the computer. 
 
+In the figure (1.1) below, it shows a **Uniprogramming** solution where there is only one program running and thr processor will execute until it hits and I/O operation and it has to wait. However, the wait period is much longer, as the I/O is much slower as compared to the processor.
 
+<p align="center">
+  <img width="725" height="140" alt="image" src="https://github.com/user-attachments/assets/d1c5643a-9561-4d89-baf6-cf507f1d9e73" /><br>
+  Figure 1.1
+</p>
 
+The figure (1.2) below shows a **Multiprogramming** situation, where there are two programs A & B. When A hits and I/O operation, program B can execute, thus improving the overall efficiency of the system.  
+
+<p align="center">
+  <img width="935" height="362" alt="image" src="https://github.com/user-attachments/assets/60fa0c8f-1988-493d-983b-213975fdfa5c" />
+  Figure 1.2
+</p>
+
+Although the multiprogramming batch system improves the efficiency of the processor, it does not handle interactive jobs. Thus, time-sharing system is developed, and is being used to handle multiple interactive jobs. In time-sharing system, multiple users share the processor time, and the OS interleave the execution of each user program in a short burst of time.<br>
+
+Multiprogramming is used in both batch processing and time sharing. In batch processing, the processor usage is maximised, and Job Control Language (JCL) commands are provided with the job. Note that JCL is an old language and it is still being used in mainframe system, which is used in some large organisations in the world. In time sharing system, the response time is minimised, and commands are entered at the terminal.
  
-
+# Major Achievements in Operating Systems
+Four important core functions of operating system have advanced a lot throughout the years, creating the modern operating systems that we have now. <br>
+The four important core functions or advancement are:
+- Processes
+- Memory Management
+- Information Protection and Security
+- Scheduling and resource management
 
 
 
