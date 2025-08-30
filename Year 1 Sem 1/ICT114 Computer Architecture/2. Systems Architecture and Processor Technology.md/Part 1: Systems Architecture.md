@@ -51,13 +51,40 @@ Computers need to be able to store:
 </div>
   -  Programs
 
+There are however several differences between storage devices and these characteristic are:
+- Speed
+- Volatility
+- Cost per bit
 
+## Input/Output Capability
+I/O devices must be able to comprise many communication modes:
+- Sound, text and graphics for human interaction
+- Electronic or optical communcation for other computers interaction
 
+## Computer Hardware
+There are 4 major functions of computer hardware. They are:
+- External Communication
+- Storage
+- Processing
+- Internal Communication
 
+## Hardware Components
+4 Main Components make up a Computer System
+1. CPU
+2. Main Memory
+3. I/O Unit
+4. System Bus
 
+| Components | Functions |
+| --- | --- |
+| CPU | A Processor that performs computation, comparison and data movement |
+| Main Memory | It is also known as primary storage. It is used to store both data and instructions |
+| I/O Unit | Performs exterenal communication functions |
+| System Bus | A communication channel taht connects all the computer system. It includes the data bus, address bus, and control bus that carry data, memory addresses, and control signals respectively. The system bus acts like a communication highway within the motherboard enabling data transfer and coordination between components.|
 
-
-
+<p align ="center">
+  <img width="556" height="367" alt="image" src="https://github.com/user-attachments/assets/c733ab40-a72d-4625-806a-789cd2d1c62b" />
+</p>
 
 
 
