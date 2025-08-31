@@ -83,22 +83,67 @@ There are 4 major functions of computer hardware. They are:
 | System Bus | A communication channel taht connects all the computer system. It includes the data bus, address bus, and control bus that carry data, memory addresses, and control signals respectively. The system bus acts like a communication highway within the motherboard enabling data transfer and coordination between components.|
 
 <p align ="center">
-  <img width="556" height="367" alt="image" src="https://github.com/user-attachments/assets/c733ab40-a72d-4625-806a-789cd2d1c62b" />
+  <img width="556" height="367" alt="image" src="https://github.com/user-attachments/assets/c733ab40-a72d-4625-806a-789cd2d1c62b" /><br>
+  Figure 2.1.1
 </p>
 
+## Central Processing Unit (CPU)
+- A CPU is a general-purpose processor that executes instructions.
+- It is implemented on microprocessor "chips"
+- Modern chips can have multiple CPU in a single chip
+- The CPU is also considered as the computer's "brain"
+- A CPU is internally divided into regions that perform specialised functions, similar to how a human brain work
 
+## CPU Components
+**Arithmetic-logic unit (ALU)**
+-  Performs computation and logic instructions
+**Registers**
+- Internal storage locations - each holds one data item
+- Hold inputs and outputs from the ALU
+**Control Unit**
+- Moves data among registers and other computer system storage locations
+- Accesses program instructions and either executes them (data movement) or directs the ALU to execute them (computation and logic instructions).
+- Manages the sequence of instructions, including branching, loops and decisions to control which instructions to execute next. (Control Flow)
 
+A CPU has three fundamental functions:
+1. Arithmetic and Logic Computations (Handle by ALU)
+2. Data Movement (Movement of data between registers, memory and I/O handled by Control Unit)
+3. Control Flow (Deciding the order of instruction execution handled by the Control Unit)
 
+<p align="center">
+  <img width="531" height="362" alt="image" src="https://github.com/user-attachments/assets/97acb709-f3f5-4ad6-b055-67a85c4227c0" /><br>
+  Figure 2.1.2
+</p>
 
+## Primary Storage
+- Computer's main memory is used to hold the operating system, system data, programs and any data currently in use.
+- Volatile memory, so it will lose its content when power is off
+- Accessible directly by the CPU for reading and writing
+- Typically faster but smaller
+- Examples of Primary Storage are: RAM, Cache, Registers
 
+## Secondary Storage 
+- Hold large quantities of data and programs
+- Is non-volatile
+- Much cheaper per bit than primary storage
+- Much slower than primary storage
+- Examples of Secondary Storage are: Magnetic disk, Optical Disk, Hard Disk Drive, Solid State Drive and Magnetic tape
 
+**Storage Comparison** 
 
+| Type | Implementation | Content | Typical quantity |
+| --- | --- | ---| --- |
+| CPU Registers | High-speed electrical devices implemented within the CPU | Currently executing instruction(s) and associated data inputs and outputs | Several dozen to a few hundred per CPU |
+| Primary storage | High-speed electrical devices (RAM) implemented outside but close to the CPU | Current programs and immediately needed data to the extent it will fit | 1-8 billion data items per CPU |
+| Secondary Storage | Low-speed electromagnetic and optical devices | Programs not currently being executed and data not currently being accessed by programs | Billions (gigabytes), trillions (terabytes), or quadrillions (exabytes) of data items |
 
-
-
-
-
-
+## System Bus
+- The System Bus is the communication channel that connects all devices in the computer system. 
+- Bus speed is critical factor in determining the overall speed of the computer system.
+- Modern computers use additional buses to improve performance.
+  - Storage bus (Used to connect multiple magnetic disk drives to a single connection point on the system bus)
+  - CPU Memory bus (Used for direct transfer of data between the CPU and primary storage)
+  - Video bus (Used for direct transfer of data between memory and the video/graphics controller)
 
 
 
