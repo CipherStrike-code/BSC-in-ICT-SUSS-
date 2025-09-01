@@ -97,9 +97,11 @@ There are 4 major functions of computer hardware. They are:
 ## CPU Components
 **Arithmetic-logic unit (ALU)**
 -  Performs computation and logic instructions
+
 **Registers**
 - Internal storage locations - each holds one data item
 - Hold inputs and outputs from the ALU
+
 **Control Unit**
 - Moves data among registers and other computer system storage locations
 - Accesses program instructions and either executes them (data movement) or directs the ALU to execute them (computation and logic instructions).
