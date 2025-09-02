@@ -102,11 +102,92 @@ Divided into two class:
      - More are better up to a point (Law of Diminishing Returns)
      - Modern CPU typically provide a few dozen per ALU
   2. Special-Purpose Registers
-     - 
+     - **Accumulator (AC)**, CPU uses this register as the default location to store any calculations performed by the ALU. It is a temporary storage location for arithmetic operations, allowing the central processing unit (CPU) to perform complex calculations. <br>
+     - The following registers are used primarily by the control unit in CPU management tasks:
+        - **Program Counter (PC)** - memory address for next instruction fetch, aka instruction pointer
+        - **Instruction Register (IR)** - copy of most recently fetched instruction
+        - **Program status word (PSW)** - Set of bit flags containing error and other codes related to processing results, for example:
+            1. Result of comparison operators
+            2. Divide by zero
+            3. Overflow and underflow
 
+## Word Size
+A word is also known as:
+  - A fixed number of bits/bytes
+  - The basic "unit" of data transformation in a CPU
+  - The size of a data item that the CPU manipulates when executing a "normal" instruction
+  - In most architecture, it is also known as the size of a memory address.
 
+The term "word size" has been disuse as more complex CPU designs employ/take on multiple word sizes.
+- An example is where a 64-bit Intel Core CPU has word sizes ranging from 16 to 128 bits.
 
+## Performance Enhancement Techniques
+With the improvement of technology, CPU designers are able to take on more complex performance improvement techniques both individually and in combination, including:
+  - Memory Caching (Will be touch in seminar 5)
+  - Pipelining
+  - Multiprocessing
+  - Branch prediction and speculative execution
 
+## Pipelining 
+This is a Henry Ford era technique (sequential assembly) applied to executing program instructions
+- Execution stages:
+  1. Fetch from memory
+  2.Increment and store program counter (PC)
+  3. Decode instruction and store operands and instruction pointer
+  4. Access ALU inputs
+  5. Execute instruction within the ALU
+  6. Store ALU output <br>
+  
+Pipelining attempts to overlatp instruction execution by performing each stage on a different instruction at the same time.<br>
+
+**Without pipelining: 1 instruction takes 6 CPU cycles => 10 instructions take 60 CPU cycles<br>
+With pipelining: 1 instruction takes 6 CPU cycles => 10 instructions take 15 CPU cycles**
+
+<p align="center">
+  <img width="2873" height="1260" alt="image" src="https://github.com/user-attachments/assets/9414d85a-bd94-4dc4-94ef-8645929a76ec" /><br>
+  Figure 2.2.5 Overlapped instruction execution via pipelining
+</p>
+
+Although it sounds great in theory, pipelining do has its own complexities. For example:
+ - Is one program counter enough?
+ - Is one instruction register enough?
+ - Is one set of general purpose registers enough?
+ - Is one ALU enough?
+ - What happens if a branch is encountered?
+
+Pipelining can be "finer grained" than we've shown thus far
+  - For example, execution (usually the longest stage) could be (and is often is) further subdivided into additional stages
+
+## Multiprocessing
+- Pipelining goes hand-in-hand with at least some duplication of processor circuitry
+- Multiprocessing carries the duplication to higher levels, such as:
+  - Multiple ALUs (with parallel execution of instructions) per CPU (common by late 1990s)
+  - Multiple CPUs on a single motherboard (common by early 2000s)
+  - Multiple CPUs on a single chip (Common by late 2000s)
+ - Modern Operating systems are more complex because they now manage more processing resources and complex application software
+ - Application software that takes advantage of multiprocessing is more complex because it must be designed for parallel execution (aka multithreading)
+
+## Branch Prediction and Speculative Execution
+- Branches cause problems with pipelining as they invalidate the partially executed instructions that follow them:
+  - Wrong instructions (after the branch) were fetched and partially executed
+  - Special and general purpose register contents are incorrect
+- Pipeline must be flushed and filling it with the proper set of instructions (the branch target) must be anew
+- Real programs have lots of branches
+  - Thus, pipelining will often "fail" unless preventive measures are employed.
+
+## Branch Prediction and Speculative Execution Preventive Measures
+- **Look Ahead** - "watch" incoming instructions for branches and alter standard behavior accordingly
+- **Branch prediction** - the CPU guesses whether a branch condition will be true or false based on past experience
+  - If the guesses are right most of the time, the processor can prefetch the correct instructions and buffer them so the processor is kept busy
+- **Speculative Execution**
+  - As the CPU executes conditional BRANCH instructions, it keeps score how often the condition for each branch instruction has been true or false
+  - Based on the scores, the CPU speculatively execute instructions ahead of their actual appearance in the execution, holding the results in temporary locations
+  - This enables the processor to keep its execution engines as busy as possible by executing instructions that are likely to be needed
+- Speculatively execute both paths beyond a conditional branch
+  - Requires multiple execution units
+  - Half the results will be thrown away (half the effort is wasted)
+
+Modern CPUs employ all three techniques to improve pipelining performance
 
 
 
