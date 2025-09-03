@@ -13,7 +13,7 @@ There are a total of two parts to this. <br>
 - Describe the CPU instruction and execution cycles
 - Describe key CPU design features including instruction format, word size, and clock rate
 - Describe the function of general-purpose and special-purpose registers
-- Describe the techniquest to improve CPU performance
+- Describe the techniques to improve CPU performance
 
 
 
