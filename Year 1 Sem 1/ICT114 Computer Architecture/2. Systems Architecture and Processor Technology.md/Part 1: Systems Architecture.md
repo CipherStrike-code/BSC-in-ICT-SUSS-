@@ -80,7 +80,7 @@ There are 4 major functions of computer hardware. They are:
 | CPU | A Processor that performs computation, comparison and data movement |
 | Main Memory | It is also known as primary storage. It is used to store both data and instructions |
 | I/O Unit | Performs exterenal communication functions |
-| System Bus | A communication channel taht connects all the computer system. It includes the data bus, address bus, and control bus that carry data, memory addresses, and control signals respectively. The system bus acts like a communication highway within the motherboard enabling data transfer and coordination between components.|
+| System Bus | A communication channel that connects all the computer system. It includes the data bus, address bus, and control bus that carry data, memory addresses, and control signals respectively. The system bus acts like a communication highway within the motherboard enabling data transfer and coordination between components.|
 
 <p align ="center">
   <img width="556" height="367" alt="image" src="https://github.com/user-attachments/assets/c733ab40-a72d-4625-806a-789cd2d1c62b" /><br>
