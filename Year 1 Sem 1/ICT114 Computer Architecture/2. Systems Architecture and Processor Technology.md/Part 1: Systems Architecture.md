@@ -34,7 +34,7 @@ There are a total of 2 types of processors.
 - When a processor “follows an instruction,” it is said to be executing the instruction.
 - An instruction is a command to a processor to let the processor to know to perform specific functions.
 
-**Storage Capacity**
+**Storage Capacity** <br>
 Computers need to be able to store:
   - **Intermediate processing results** (Also knowns as a temporary output at a certain stage of the process or workflow, which may be used for further operations or as an input for a later stage)
   - **Data** (Persistent Output from a previous program execution and can be used as input for future executions. It is different from intermediate processing result as it is not temporary and can be used in different process or workflow.)<br>
