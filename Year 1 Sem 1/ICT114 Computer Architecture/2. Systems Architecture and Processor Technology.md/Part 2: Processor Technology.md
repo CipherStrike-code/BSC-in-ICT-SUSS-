@@ -70,10 +70,10 @@ An instruction is a command to the CPU to perform a single processing function o
   - It is stored in the memory or a register.
   - It must be decoded to extract the processing function and data inputs
   - Instruction Components:
-    - Opcode (Unique binary number representing the processing function and a template for extracting the operands
+    - Opcode (Unique binary number representing the processing function and a template for extracting the operands)
     - Operands (One or more groups of bits after the op code that contain data to be processed or identify the location of that data (A register or a memory address))
   - Different kinds of operands have different lengths based on the type of data or address stored
-  - Same processing function may correspond to many different op-codes with different operand formats (e.g, an ADD instruction for intergers stored as operands, another for integers stored in registers, and another for intergers stored in memory)
+  - Same processing function may correspond to many different op-codes with different operand formats (e.g, an ADD instruction for integers stored as operands, another for integers stored in registers, and another for integers stored in memory)
 
 <p align="center">
   <img width="495" height="186" alt="image" src="https://github.com/user-attachments/assets/4b282000-4a0e-4440-abd6-6084a3b65dbe" /><br>
@@ -81,24 +81,24 @@ An instruction is a command to the CPU to perform a single processing function o
 </p>
 
 ## Clock Rate
-The system clock is a digital circuit that generates timing pulses, and transmits the pulses to other devices in the computer
+The system clock (Part of Processor) is a digital circuit that generates timing pulses, and transmits the pulses to other devices in the computer
 - It is generally a seperate device with a dedicated communication line monitored by all devices in the computer system.
 - All actions, especially the CPU's fetch and execute cycles, are timed according to this clock.
-- Storage and I/O devices are timed by the clock signal
+- Storage and I/O devices are timed by the clock signal.
 - All devices in a computer system coordinate their activities with the system clock
 
 The system clock generates "ticks" at regular intervals:
   - Each tick of the clock begins a new clock cycle
   - The CPU clock rate is the frequency of those ticks
   - Typically stated in gigahertz (GHz) - billions of cycles (ticks) per second
-  - Inverse of the clock rate is clock time.
+  - Inverse of the clock rate is cycle time.
   - Cycle time is the time required to fetch and execute the simplest instruction in the instruction set (e.g., NOT)
   - Cycle time = 1/Clock Rate
 
 ## Registers
 Divided into two class:
   1. General Purpose
-     - Used to store transient/temporay data required by the program
+     - Used to store transient/temporary data required by the program
      - More are better up to a point (Law of Diminishing Returns)
      - Modern CPU typically provide a few dozen per ALU
   2. Special-Purpose Registers
@@ -132,13 +132,13 @@ With the improvement of technology, CPU designers are able to take on more compl
 This is a Henry Ford era technique (sequential assembly) applied to executing program instructions
 - Execution stages:
   1. Fetch from memory
-  2.Increment and store program counter (PC)
+  2. Increment and store program counter (PC)
   3. Decode instruction and store operands and instruction pointer
   4. Access ALU inputs
   5. Execute instruction within the ALU
   6. Store ALU output <br>
   
-Pipelining attempts to overlatp instruction execution by performing each stage on a different instruction at the same time.<br>
+Pipelining attempts to overlap instruction execution by performing each stage on a different instruction at the same time.<br>
 
 **Without pipelining: 1 instruction takes 6 CPU cycles => 10 instructions take 60 CPU cycles<br>
 With pipelining: 1 instruction takes 6 CPU cycles => 10 instructions take 15 CPU cycles**
