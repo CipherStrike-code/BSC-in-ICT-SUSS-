@@ -58,7 +58,7 @@ The CPU constantly alternates between 3 stages (or cycles):
   
 - Execution Cycle
   - Data movement instrucitons are executed by the control unit
-  - Computation and comparison instructions are executed by the ALU in response to a control signal from the control unit. Data inputs flow from registers thorugh processing circuitry and the output(s) flows to one or more registers.
+  - Computation and comparison instructions are executed by the ALU in response to a control signal from the control unit. Data inputs flow from registers through processing circuitry and the output(s) flows to one or more registers.
 
 <p align="center">
   <img width="529" height="480" alt="image" src="https://github.com/user-attachments/assets/8cb43d8e-1fd7-4eb2-bdd5-73a626811163" /><br>
