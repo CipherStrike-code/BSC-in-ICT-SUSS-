@@ -73,7 +73,7 @@ An instruction is a command to the CPU to perform a single processing function o
     - Opcode (Unique binary number representing the processing function and a template for extracting the operands
     - Operands (One or more groups of bits after the op code that contain data to be processed or identify the location of that data (A register or a memory address))
   - Different kinds of operands have different lengths based on the type of data or address stored
-  - Same processing function may correspond to many different op-codes with different operand formats (e.gg, and ADD instruction for intergers stored as operands, another for integers stored in registers, and another for intergers stored in memory)
+  - Same processing function may correspond to many different op-codes with different operand formats (e.g, an ADD instruction for intergers stored as operands, another for integers stored in registers, and another for intergers stored in memory)
 
 <p align="center">
   <img width="495" height="186" alt="image" src="https://github.com/user-attachments/assets/4b282000-4a0e-4440-abd6-6084a3b65dbe" /><br>
