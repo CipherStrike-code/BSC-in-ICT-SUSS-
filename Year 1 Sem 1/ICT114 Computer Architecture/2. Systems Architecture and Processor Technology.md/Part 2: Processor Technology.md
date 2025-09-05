@@ -70,7 +70,7 @@ An instruction is a command to the CPU to perform a single processing function o
   - It is stored in the memory or a register.
   - It must be decoded to extract the processing function and data inputs
   - Instruction Components:
-    - Opcode (Unique binary number representing the procesing fucntion and a template for extracting the operands
+    - Opcode (Unique binary number representing the processing function and a template for extracting the operands
     - Operands (One or more groups of bits after the op code that contain data to be processed or identify the location of that data (A register or a memory address))
   - Different kinds of operands have different lengths based on the type of data or address stored
   - Same processing function may correspond to many different op-codes with different operand formats (e.gg, and ADD instruction for intergers stored as operands, another for integers stored in registers, and another for intergers stored in memory)
