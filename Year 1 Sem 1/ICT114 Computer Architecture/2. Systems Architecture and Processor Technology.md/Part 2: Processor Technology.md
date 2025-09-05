@@ -19,7 +19,7 @@
 - Directs all computer system actions including processing, storage, input/output, and data movement
 
 ## CPU Components
-- Control Unit (Directs flow of data to/from memory, registers and the arithmeic logic unit. Access programs instructions and executes them or directs the ALU to executs them)
+- Control Unit (Directs flow of data to/from memory, registers and the arithmeic logic unit. Access programs instructions and executes them or directs the ALU to execute them)
 - Arithmetic logic unit (ALU) (Executes computation and comparison instructions)
 - Registers (Storage locations within the CPU that hold ALU inputs, ALU outputs, and other data for fast access)
 
