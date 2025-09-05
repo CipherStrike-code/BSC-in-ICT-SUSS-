@@ -44,7 +44,7 @@ Three Steps:
 The CPU constantly alternates between 3 stages (or cycles):
 - Fetch Cycle:
   - The control unit reads an instruction from primary storage(RAM).
-  - The control unit increments the program counter (PC), also known as the instruction pointer (address of the nexte instruction to be read).
+  - The control unit increments the program counter (PC), also known as the instruction pointer (address of the next instruction to be read).
   - The control unit stores the instruction in the instruction register (IR).
   - If there are data inputs embedded in the instruction, they are loaded into registers as inputs for the ALU.
   - If the instruction includes memory addresses of data inputs, they're copied from memory and loaded into registers as inputs for the ALU.
