@@ -72,11 +72,32 @@ There are 4 main core functions of an Operating System.
   - Scheduling (Process Queuing in Memory before being executed by Processor)
   - Resource Management (Handle I/O and Allocate Resources Efficiently and Fairly)
 
+## Types of Operating System
+There are 2 types of operating systme that we generally need to know.
+- Uniprogramming
+- Multiprogramming
 
+### Uniprogramming
+Uniprogramming means that only a single taks or program is in the memory at any particular time. This more common in initial computers. 
 
+**Characteristic**
+1. Less main memory is needed as only one program sits in main memory at any time.
+2. Less efficient use of the processor during periods of I/O operations.
+3. Programs are executed sequentially, one after the other.
 
+### Multiprogramming
+Multiprogramming means that multiple programs can be run at the same time. 
 
+**Characteristic**
+1. The memory can hold several programs at one time.
+2. Resources are being allocated to different programs.
+3. Size of the memory is larger compared to uniprogramming.
+4. More efficient use of the processor. Another program can run when the current program is waiting for an I/O operation. 
 
+Operating System Objectives:
+<p align="center">
+  <img width="757" height="424" alt="image" src="https://github.com/user-attachments/assets/3f53c6f2-2581-4d77-be02-afb166e455a8" />
+</p>
 
 
 
