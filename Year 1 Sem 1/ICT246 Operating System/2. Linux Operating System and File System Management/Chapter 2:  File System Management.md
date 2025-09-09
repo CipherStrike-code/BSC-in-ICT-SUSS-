@@ -69,6 +69,12 @@ One of the main functions of the OS is to allocate blocks to files, handled by f
   <em>Figure 2.2: Contiguous Allocation</em>
 </p>
 
+| Advantages | Disadvantages|
+| --- | --- |
+| Very Fast Sequential and random access since number of seeks are minimal | External Fragmentation making inefficient usage of memory|
+| Simple to implement | Hard to grow files as it depends on the availability of contiguous memory at a particular instance |
+
+
 ---
 
 ### 2. Chained Allocation (Linked List Allocation)
