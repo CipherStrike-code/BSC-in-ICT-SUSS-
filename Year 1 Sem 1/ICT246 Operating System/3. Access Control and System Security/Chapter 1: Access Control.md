@@ -1,4 +1,4 @@
-## Access Control Overview
+<img width="1004" height="165" alt="image" src="https://github.com/user-attachments/assets/3c2b1164-4339-4479-b9f7-366aa9aaf192" />## Access Control Overview
 **What is Access Control?**
 Access Control is the process that determines who has access or is allowed to access certain apps, data and resources, and under what circumstances.
 
@@ -39,11 +39,16 @@ Types of Access Control:
   - access right
 - In a server OS, usually users group instead of users are created as the subjects, and folders that contain files are being used as objects.
 <p align="center">
-  <img width="690" height="888" alt="image" src="https://github.com/user-attachments/assets/229cdbb9-5267-4965-951a-ea3286389d77" /><br>
-  <img width="1003" height="866" alt="image" src="https://github.com/user-attachments/assets/d869e811-ee37-4a53-846a-4cb1142be0e4" />
+  <img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/229cdbb9-5267-4965-951a-ea3286389d77" /><br>
+  <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/d869e811-ee37-4a53-846a-4cb1142be0e4" />
 </p>
 
-
+- Apply access control in Linux files and folders
+  - In Linux, the permissions for files and folders are divided into three groups: user (owner), group, and others
+<p align="center">
+  <img width="500" height="165" alt="image" src="https://github.com/user-attachments/assets/bc2f8b4c-76c6-423c-a75b-55f5beaa0661" /><br>
+  <img width="500" height="156" alt="image" src="https://github.com/user-attachments/assets/2361eeef-37ee-4c2e-84ed-bd20d9e06a65" />
+</p>
 
 
 
