@@ -57,13 +57,31 @@ Operating system hardening is the process of securing an OS by reducing its atta
 
 **OS installation and patching**
 - Proper planning in installing an OS is important
+- Minimise the software package included
+- Booting process also has to be taken care of (e.g. password for changes to the BIOS)
+- Use of cryptographic file systems
 
+**Remove Unnecessary services, applications, and protocols**
+- System planning needs to be done to perform this task to resolve the conflict of usability and security
+- Unnecessary services should not be installed by default
 
+**Configure users, groups, and permissions**
+- Access control needs to be planned properly so that the users will not have more privileges than they are required. (POLP)
+- Categorisation of users should be done with care,
+- Additional group that the users are in should be justifiable.
 
+**Install and configure additional security controls**
+- Additional security controls should be implemented (e.g. antivirus software, host-based firewall, host-based intrution detection system, etc.)
+- These additional controls are often necessary
+- Antivirus software needs to be updated on the definition files (or signatures)
 
+**Test the system security**
+- To make sure that what you have implemented works
+- Use a checklist (specific to the different OS being used.)
 
-
-
+**Applying hardening in Linux OS**
+- Removing and disabling unnecessary services is an important part of OS hardening.
+- The default Linux installation usually installs more services than what is needed.
 
 
 
