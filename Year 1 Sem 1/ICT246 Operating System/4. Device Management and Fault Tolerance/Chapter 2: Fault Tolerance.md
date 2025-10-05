@@ -50,8 +50,11 @@ Figure 4.4
 Figure 4.5
 </p>
 
-
-
+## ZFS File System
+- RAID is not able to protect against data corruption. Data corruption is where the data is being altered or unusable. Disk failure is where the internal phycical components of the drive malfunction.
+- Z file System (ZFS) uses checksum to preserve the integrity of dta and files.
+- ZFS provides volume manager, and can provide different RAID levels.
+- ZFS is open-source (supported by many Linux Systems)
 
 
 
