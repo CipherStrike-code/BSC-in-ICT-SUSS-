@@ -38,12 +38,28 @@ A computer system that manages one or more shared resources such as file systems
 - Disadvantages: Complex configuration and administration
 
 ## Grid Configuration
-- Distributed architecture that combines computer resources from different locations to achieve a common goal. Task is broken down into smaller subtasks, allowing concurrent processing
-- Computers work cooperatively at some time, independently at others
+- Distributed architecture that combines computer resources from different locations to achieve a common goal. Task is divided into smaller subtasks and executed concurrently across multiple systems
+- Computers work cooperatively at some time and independently at others
 - Tends to use "ordinary" network connections not dedicated to the grid since computers may be widely dispersed.
-- Computers may be in separate rooms, buildings, or continents.
-- 
+- Computers can be located in separate rooms, buildings, or continents.
+- Advantages: Scalability, Efficient Resource Utilisation, Complex Problem Solving, Collaboration, Cost Saving, Parallel Processing.
+- Disadvantages: Security Risks, Limited Flexibility, Complex Configuration and Administration
 
+## Cloud Configuration
+- An extension of the grid concept
+- Users interact with a front-end system which in turn musters whatever grid resources are needed
+- Clouds typically employ virtualisation, allowing resources to be created and made available on demand.
+- Clouds maintain resources such as storage and websites on behalf of users, the resources are permanenetly located "outside" the suign organisation.
+
+## CPU Data Types
+There are a total of 5 data types that a CPU can manipulate directly. 
+1. Integer
+2. Real Number
+3. Character
+4. Boolean
+5. Memory Address
+
+CPU can also implement multiple versions of each type to support different types of processing operations. For example, for the type integer, it supports 8-bit, 16-bit, 32-bit and 64-bit and for character it supports 8-bit (ASCII), 16-bit (Unicode) and 32-bit (UTF-32).
 
 
 
