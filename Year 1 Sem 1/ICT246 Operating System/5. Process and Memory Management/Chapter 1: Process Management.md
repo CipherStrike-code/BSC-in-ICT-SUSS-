@@ -57,12 +57,21 @@ Figure 5.3 Circular Wait
 2. Deadlock Avoidance
 3. Deadlock Detection and Recovery
 
+**Deadlock Prevention**
+There are two main ways for OS to prevent Deadlock:
+1. Prevent the occurrence of one of the three conditions for deadlock to happen
+2. Prevent the occurrence of circular wait
 
+- **Mutual Exclusion** - Not possible to prevent this as some resources must be accessed by only one process at one time. (E.g if OS allows two processes to write to the same file at the same time, it may result in a corruption of the file. Some hardware resources such as printer can only be used by one process at one time.)
+- **Hold and Wait** - Possible to prevent by requiring one process  to request all its required resources at one time. The procees will be blocked until all resources are available
+- **No preemption** - Possible to prevent by requiring that a process that holds some resources to release its resources if needed by another process
+- **Circular Wait** - Can be prevented by defining a linear ordering of resource type
 
-
-
-
-
+**Deadlock Avoidance**
+OS allows the three of the conditions to occure but it ensures that the fourth condition or rather Circular Wait never to occur, so that the deadlock point is never reached. <br>
+Two approaches to deadlock avoidance:
+1. Process will not be started if its demand may lead to a deadlock later.
+2. Process will not be granted an incremental resource request if the allocation may lead to a deadlock later.
 
 
 
