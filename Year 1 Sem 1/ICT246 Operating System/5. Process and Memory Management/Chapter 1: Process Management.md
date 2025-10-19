@@ -95,6 +95,10 @@ There are two types of CPU scheduling Algorithms
 - A process will join the ready queue once it is ready.
 - When the current process stops executing, the process that has been in the ready queue longest will be executed next
 
+**Round Robin (RR)**
+- An algorithm that implements the technique of time slicing.
+- Each process will run for a specific amount of time, and the current executing process will be placed on the ready queue if it has utilised its time slice.
+- The next ready process is selected based on FCFS.
 
 
 
