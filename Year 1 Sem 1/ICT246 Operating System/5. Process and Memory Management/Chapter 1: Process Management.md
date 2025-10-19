@@ -82,7 +82,18 @@ Two approaches to deadlock avoidance:
   - **Concurrency Control**: Concurrency Control are used to prevent data inconsistencies in systems with multiple concurrent processes. This mechanisms ensure that the concurrent processes do not access the same data at the same time, leading to inconsistencies and corruption.
 
 ## Processor Scheduling
+Processor Scheduling is also known as short-term schdeuling. It is to optimise the allocation of the processor time. It is important as it detemines which process will be executed by the processor. <br>
+There are two types of CPU scheduling Algorithms
+1. **Preemptive Scheduling**: Used when process switches from runnning state to ready state or from the waiting state to the ready state.
+2. **Non-preemptive Scheduling**: Used when a process terminates, or when a process switches from running state to waiting state.
 
+<p align="center">
+<img width="918" height="366" alt="image" src="https://github.com/user-attachments/assets/6cb3f4ad-d7fa-40ff-9576-dec71021a27b" />
+</p>
+
+**First Come First Served (FCFS)**
+- A process will join the ready queue once it is ready.
+- When the current process stops executing, the process that has been in the ready queue longest will be executed next
 
 
 
