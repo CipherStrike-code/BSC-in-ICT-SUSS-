@@ -73,10 +73,15 @@ Two approaches to deadlock avoidance:
 1. Process will not be started if its demand may lead to a deadlock later.
 2. Process will not be granted an incremental resource request if the allocation may lead to a deadlock later.
 
+**Deadlock Detection and Recovery**
+- OS will check for deadlock periodically
+- Once deadlock is detected, the OS can then use a strategy to resolve the deadlock
+  - **Killing the Process**: Killing all the process involve in deadlock one by one. After each process is killed, a check for deadlock is done and this will repeats till the system recovers from deadlock.
+  - **Process Rollback**: Rollback deadloacked processes back to a previous saved state when deadlock condition did not exist.
+  - **Resource Preemption**: Resources are preempted from the processes involved in the deadlock, and preempted resources are allocated other processes so that the system can recover from deadlock.
+  - **Concurrency Control**: Concurrency Control are used to prevent data inconsistencies in systems with multiple concurrent processes. This mechanisms ensure that the concurrent processes do not access the same data at the same time, leading to inconsistencies and corruption.
 
-
-
-
+## Processor Scheduling
 
 
 
