@@ -100,10 +100,19 @@ There are two types of CPU scheduling Algorithms
 - Each process will run for a specific amount of time, and the current executing process will be placed on the ready queue if it has utilised its time slice.
 - The next ready process is selected based on FCFS.
 
+**Shortest Process Next (SPN)**
+- Non-preemptive algorithm that selects the process with the shortest expected processing time
 
+**Shortest Remaining Time (SRT)**
+- Preemptive version of SPN
+- Select the process that has the shortest expected remaining time
 
-
-
+## Example
+<p align="center">
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/7f3bde64-755e-4d37-bc73-9b94d50c7d77" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/9ce996dc-469b-49b8-b6d0-3e6f3d574520" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/d738ab5a-a8f0-46e1-ad5e-0fec0980c397" />
+</p>
 
 
 
