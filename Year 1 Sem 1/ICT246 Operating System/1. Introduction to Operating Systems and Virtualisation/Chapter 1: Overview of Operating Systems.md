@@ -60,7 +60,7 @@ Below are a list of some of the commonly used operating system in the world:
 3. Ability to evolve
   - It should be easy to modify and update.
   - It must adapt to changes to hardware and any new emerging technology
-  - It should support new servies, features, and patches without major redesign.
+  - It should support new services, features, and patches without major redesign.
 
 ## Core Functions of Operating System
 There are 4 main core functions of an Operating System.
@@ -100,6 +100,7 @@ Operating System Objectives:
 <p align="center">
   <img width="757" height="424" alt="image" src="https://github.com/user-attachments/assets/3f53c6f2-2581-4d77-be02-afb166e455a8" />
 </p>
+
 
 
 
