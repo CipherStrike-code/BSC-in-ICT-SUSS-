@@ -13,7 +13,7 @@ A Virtual Machine(VM) is a operating system running on top of a host system, ena
 ## Benefits of using hypervisor
 1. Consolidation
    - A server can run multiple virtual machine and improves its effiency by sharing its resources.
-2. Rapid Development
+2. Rapid Deployment
    - A VM can be deployed in a very short time span as VMs consist only of files. This also makes it easy to copy, transfer, and back up.
 3. Ease of Management
    - VM facilitates deployment, and software can be tested easily. Virtualisation now is widely used in data centers, as it supports cloud computing.
@@ -42,6 +42,7 @@ Steps:
 4. Kernel initializes hardware + system functions
 5. OS services start
 6. User interface provided
+
 
 
 
