@@ -47,7 +47,7 @@ Below are a list of some of the commonly used operating system in the world:
   - Controlled access to files
     - OS provides file management services as well as providing mechanism of access control to files and folders.
   - System access
-    - OS resolves conflict for resources contentiona as well as control access to the system
+    - OS resolves conflict for resources contentional as well as control access to the system
   - Error detection and response
     - OS handles varies errors conditions such as issues in executing program
   - Accounting
@@ -100,6 +100,7 @@ Operating System Objectives:
 <p align="center">
   <img width="757" height="424" alt="image" src="https://github.com/user-attachments/assets/3f53c6f2-2581-4d77-be02-afb166e455a8" />
 </p>
+
 
 
 
