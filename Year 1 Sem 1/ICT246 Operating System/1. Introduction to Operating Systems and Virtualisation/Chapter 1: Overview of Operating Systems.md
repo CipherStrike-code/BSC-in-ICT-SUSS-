@@ -38,6 +38,8 @@ Below are a list of some of the commonly used operating system in the world:
 1. Convenience
   - An operating system as a user/computer interface.
   - To make the computer convenient to use
+  - Program Development
+    - Editors and Debuggers to assist program development
   - Program Execution
     - OS handles the execution of program and process, and scheduling of resources
   - Access to I/O devices
@@ -98,6 +100,7 @@ Operating System Objectives:
 <p align="center">
   <img width="757" height="424" alt="image" src="https://github.com/user-attachments/assets/3f53c6f2-2581-4d77-be02-afb166e455a8" />
 </p>
+
 
 
 
