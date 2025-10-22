@@ -80,7 +80,7 @@ There are 2 types of operating system that we generally need to know.
 - Multiprogramming
 
 ### Uniprogramming
-Uniprogramming means that only a single taks or program is in the memory at any particular time. This more common in initial computers. 
+Uniprogramming means that only a single task or program is in the memory at any particular time. This more common in initial computers. 
 
 **Characteristic**
 1. Less main memory is needed as only one program sits in main memory at any time.
@@ -100,6 +100,7 @@ Operating System Objectives:
 <p align="center">
   <img width="757" height="424" alt="image" src="https://github.com/user-attachments/assets/3f53c6f2-2581-4d77-be02-afb166e455a8" />
 </p>
+
 
 
 
