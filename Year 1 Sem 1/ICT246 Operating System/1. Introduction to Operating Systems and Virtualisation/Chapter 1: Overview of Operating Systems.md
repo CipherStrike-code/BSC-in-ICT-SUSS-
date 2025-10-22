@@ -75,7 +75,7 @@ There are 4 main core functions of an Operating System.
   - Resource Management (Handle I/O and Allocate Resources Efficiently and Fairly)
 
 ## Types of Operating System
-There are 2 types of operating systme that we generally need to know.
+There are 2 types of operating system that we generally need to know.
 - Uniprogramming
 - Multiprogramming
 
@@ -100,6 +100,7 @@ Operating System Objectives:
 <p align="center">
   <img width="757" height="424" alt="image" src="https://github.com/user-attachments/assets/3f53c6f2-2581-4d77-be02-afb166e455a8" />
 </p>
+
 
 
 
