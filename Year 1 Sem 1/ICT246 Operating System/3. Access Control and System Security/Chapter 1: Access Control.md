@@ -1,4 +1,5 @@
-<img width="1004" height="165" alt="image" src="https://github.com/user-attachments/assets/3c2b1164-4339-4479-b9f7-366aa9aaf192" />## Access Control Overview
+## Access Control Overview
+<img width="1004" height="165" alt="image" src="https://github.com/user-attachments/assets/3c2b1164-4339-4479-b9f7-366aa9aaf192" />
 **What is Access Control?**
 Access Control is the process that determines who has access or is allowed to access certain apps, data and resources, and under what circumstances.
 
