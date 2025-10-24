@@ -23,8 +23,8 @@
 - A traditional hard disk consists of platters that rotate under the read/write head.
   - E.g Laptop disks have the speed of 5400 rpm (rotational speed) or 7200 rpm. Servers can be higher with rpm such as 10K or 15K rpm.
 - To read a sector in the disk, the read/write head will need to be positioned at the right track and at the start of the right sector.
-  - Seek time: Time taken to position the read/write head on the right track
-  - Rotational delay: Time taken to position the read/write head at the start of the right sector
+  - **Seek time**: Time taken to position the read/write head on the right track
+  - **Rotational delay**: Time taken to position the read/write head at the start of the right sector
 - The transfer time can be represented as follows:
   - T = b/rN
   - T = Transfer time
