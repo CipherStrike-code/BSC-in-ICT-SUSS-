@@ -1,7 +1,7 @@
 ## Redundant Array of Independent Disks (RAID)
 - RAID is an example of fault tolerance
 - RAID uses redundant disk capacity to store parity so that it can rebuild the data in case of disk failure.
-- RAID is widely implementd in servers (Hard disks used by servers are bound to failure if running long enough)
+- RAID is widely implemented in servers (Hard disks used by servers are bound to failure if running long enough)
 
 There are a total of 7 RAID level, ranging from RAID 0 to RAID 6. However, we will only talk about RAID 0, RAID 1, RAID 4, RAID 5 and RAID 6. There is also a RAID 10 but it is just RAID 1 + RAID 0
 
@@ -28,7 +28,7 @@ There are a total of 7 RAID level, ranging from RAID 0 to RAID 6. However, we wi
 - One disk is used to store the parity bits.
 - Data are divided into blocks across multiple disks with a separate, dedicated disk solely for storing parity information.
 - Block-level striping and seperate parity disk are used.
-- Requires a minimum of 3 drives
+- Requires a minimum of 3 disks
 - It allows up to 1 disk failure.
 <p align="center">
 <img width="1201" height="352" alt="image" src="https://github.com/user-attachments/assets/239dea2f-fa79-469d-8a2a-5180646e95c4" />
@@ -46,8 +46,8 @@ Figure 4.4
 
 ## RAID 6
 - Uses two different parity calculations, and the parity is stored across the different disks
-- Allows up to 2 disk failure
-- Requires a minimum of 4 drives
+- Allows up to 2 disks failure
+- Requires a minimum of 4 disks
 <p align="center">
 <img width="1160" height="325" alt="image" src="https://github.com/user-attachments/assets/4d498fa3-a84a-43ba-8c33-d4b7f6c632a8" />
 Figure 4.5
@@ -55,7 +55,7 @@ Figure 4.5
 
 ## ZFS File System
 - RAID is not able to protect against data corruption. Data corruption is where the data is being altered or unusable. Disk failure is where the internal phycical components of the drive malfunction.
-- Z file System (ZFS) uses checksum to preserve the integrity of dta and files.
+- Z file System (ZFS) uses checksum to preserve the integrity of data and files.
 - ZFS provides volume manager, and can provide different RAID levels.
 - ZFS is open-source (supported by many Linux Systems)
 
