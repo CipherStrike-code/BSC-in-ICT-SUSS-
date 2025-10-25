@@ -1,5 +1,5 @@
 ## System Monitoring
-System monitoring is the monitoring of the system performance such as the process running, disk usage and the memory used. Many OS nowadays comes with default tools that can be used for system management and monitoring. Commercial tools can be deployed to monitor the system performance of amany devices loaded with OS in corporate environment.
+System monitoring is the monitoring of the system performance such as the process running, disk usage and the memory used. Many OS nowadays comes with default tools that can be used for system management and monitoring. Commercial tools can be deployed to monitor the system performance of many devices loaded with OS in corporate environment.
 
 ## Monitoring of processes
 - Commands such as ps, top
