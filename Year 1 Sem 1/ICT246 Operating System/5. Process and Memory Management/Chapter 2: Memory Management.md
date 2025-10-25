@@ -1,4 +1,4 @@
-## Mermory Partitioning 
+## Memory Partitioning 
 - Main operation of memory management is to bring processes into main memory (e.g. RAM) for execution
 - Dynamic Partitioning
   - It is a method that allocates the process exactly the memory that it requires
